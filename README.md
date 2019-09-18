@@ -78,7 +78,7 @@ python3 -u train.py --gpuid $GPUID --dir data/squad-v1.1/ \
 ```
 where ```[GPUID]``` is the GPU you want to use (one only).\
 ```[SEED]``` is the randomness for data split and shuffling.\
-```[PERC]``` is the sampling ratio (e.g. 0.1 for 10%).\
+```[PERC]``` is the sampling ratio (e.g. 0.1 for 10%).
 
 To evaluate the trained model:
 ```
