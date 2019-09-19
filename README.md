@@ -57,7 +57,7 @@ python3 -u elmo_batch_preprocess.py --gpuid [GPUID] --src data/squad-v1.1/dev.co
 python3 -u elmo_batch_preprocess.py --gpuid [GPUID] --src data/squad-v1.1/train.context.txt --tgt data/squad-v1.1/train.query.txt --batched data/squad-v1.1/squad-train.hdf5 --output data/squad-v1.1/train
 ```
 where ```[GPUID]``` is the target GPU id to use (one only). Set to ```-1``` to run on CPU.
-The result ELMo cache embeddings will be ```data/dev.elmo.hdf5``` and ```data/train.elmo.hdf5```.
+The result ELMo cache embeddings will be ```data/squad-v1.1/dev.elmo.hdf5``` and ```data/squad-v1.1/train.elmo.hdf5```.
 
 
 ## 2. BiDAF
