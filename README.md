@@ -48,7 +48,7 @@ python3 preprocess.py --dir data/squad-v1.1/ --glove data/glove.840B.300d.txt --
 python3 get_pretrain_vecs.py --dir data/squad-v1.1/ --glove data/glove.840B.300d.txt --dict squad.word.dict --output glove
 python3 get_char_idx.py --dir data/squad-v1.1/ --dict squad.allword.dict --freq 49 --output char
 ```
-6039 batches in train set. And 284 characters extracted.
+There will be 6039 batches in train set and 284 characters extracted.
 
 ### 1.1 Caching ELMo
 The following instructions are used for caching ELMo embeddings for much faster training and evaluation.\
