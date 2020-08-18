@@ -10,7 +10,7 @@ Implementation of the machine comprehension model in our ACL 2019 paper: [Augmen
   }
 ```
 
-For the NLI model, check out [here](https://github.com/utahnlp/layer_augmentation).
+**For the NLI model, check out [here](https://github.com/utahnlp/layer_augmentation).**
 
 ### 0. Prerequisites
 Have the following installed:
