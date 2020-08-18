@@ -111,7 +111,7 @@ python3 -u train.py --gpuid $GPUID --dir data/squad-v1.1/ \
 	--seed ${SEED} --save_file models/${CONSTR_W//.}_rho${RHO_W}_dev_lr0001_perc${PERC//.}_seed${SEED} | tee models/${CONSTR_W//.}_rho${RHO_W}_dev_lr0001_perc${PERC//.}_seed${SEED}.txt
 ```
 Constraint ```a8``` is the conservative constraint in our paper while ```a9``` is the normal constraint.\
-```rho_w``` is the impact scaling factor on the constraint.
+```rho_w``` is the impact scaling factor for the constraint.
 
 To evaluate the trained model:
 ```
