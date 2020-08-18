@@ -62,8 +62,6 @@ class Pipeline(torch.nn.Module):
 			self.classifier = BoundaryClassifier(opt, shared)
 		elif opt.cls == 'boundary_chain':
 			self.classifier = BoundaryChainClassifier(opt, shared)
-		elif opt.cls == 'boundary_cross':
-			self.classifier = BoundaryCrossClassifier(opt, shared)
 		else:
 			assert(False)
 
